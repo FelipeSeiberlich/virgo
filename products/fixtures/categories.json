@@ -3,7 +3,7 @@
       "pk": 1,
       "model": "products.category",
       "fields": {
-        "name": "Tags",
+        "name": "tags",
         "friendly_name": "Colorful Tags"
       }
     },
@@ -11,7 +11,7 @@
       "pk": 2,
       "model": "products.category",
       "fields": {
-        "name": "Boxes_containers",
+        "name": "boxes_containers",
         "friendly_name": "Boxes & Containers"
       }
     },
@@ -19,7 +19,7 @@
       "pk": 3,
       "model": "products.category",
       "fields": {
-        "name": "Hangers",
+        "name": "hangers",
         "friendly_name": "Hangers"
       }
     },
@@ -35,7 +35,7 @@
       "pk": 5,
       "model": "products.category",
       "fields": {
-        "name": "Clearance",
+        "name": "clearance",
         "friendly_name": "Clearance"
       }
     },
@@ -43,7 +43,7 @@
       "pk": 6,
       "model": "products.category",
       "fields": {
-        "name": "Proximity_sensors",
+        "name": "proximity_sensors",
         "friendly_name": "Proximity Sensors"
       }
     },
@@ -51,7 +51,7 @@
       "pk": 7,
       "model": "products.category",
       "fields": {
-        "name": "Farness_sensors",
+        "name": "farness_sensors",
         "friendly_name": "Farness Sensors"
       }
     },
@@ -67,7 +67,7 @@
       "pk": 9,
       "model": "products.category",
       "fields": {
-        "name": "Tag_sensors",
+        "name": "tag_sensors",
         "friendly_name": "Tag Sensors"
       }
     }

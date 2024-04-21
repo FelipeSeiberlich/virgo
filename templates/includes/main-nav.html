@@ -8,7 +8,7 @@
                 <a href="" class="dropdown-item">By Price</a>
                 <a href="" class="dropdown-item ">By Rating</a>
                 <a href="" class="dropdown-item ">By Category</a>
-                <a href="" class="dropdown-item">All Products</a>
+                <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
             </div>
         </li>
 
@@ -17,10 +17,10 @@
                 Organizers
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="" class="dropdown-item">Tags</a>
-                <a href="" class="dropdown-item">Boxes</a>
-                <a href="" class="dropdown-item">Hangers</a>
-                <a href="{% url 'products' %}" class="dropdown-item">All Organizers</a>
+                <a href="{% url 'products' %}?category=Tag_sensors" class="dropdown-item">Tags</a>
+                <a href="{% url 'products' %}?category=boxes_containers" class="dropdown-item">Boxes</a>
+                <a href="{% url 'products' %}?category=hangers" class="dropdown-item">Hangers</a>
+                <a href="{% url 'products' %}?category=tags, boxes_containers, hangers" class="dropdown-item">All Organizers</a>
             </div>
         </li>
 
