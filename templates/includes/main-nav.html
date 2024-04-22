@@ -16,11 +16,11 @@
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="clothing-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Organizers
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="{% url 'products' %}?category=Tag_sensors" class="dropdown-item">Tags</a>
-                <a href="{% url 'products' %}?category=boxes_containers" class="dropdown-item">Boxes</a>
-                <a href="{% url 'products' %}?category=hangers" class="dropdown-item">Hangers</a>
-                <a href="{% url 'products' %}?category=tags, boxes_containers, hangers" class="dropdown-item">All Organizers</a>
+            <div class="dropdown-menu border-0" aria-labelledby="organizers-link">
+                <a href="{% url 'products' %}?category=Tags" class="dropdown-item">Tags</a>
+                <a href="{% url 'products' %}?category=Boxes_containers" class="dropdown-item">Boxes</a>
+                <a href="{% url 'products' %}?category=Hangers" class="dropdown-item">Hangers</a>
+                <a href="{% url 'products' %}?category=Tag_sensors, Boxes_containers, Hangers" class="dropdown-item">All Organizers</a>
             </div>
         </li>
 
@@ -28,11 +28,11 @@
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="homeware-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Sensors
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="" class="dropdown-item">Proximity sensors</a>
-                <a href="" class="dropdown-item">Farness sensors</a>
-                <a href="" class="dropdown-item">Tag sensors</a>
-                <a href="" class="dropdown-item">All Sensors</a>
+            <div class="dropdown-menu border-0" aria-labelledby="sensors-link">
+                <a href="{% url 'products' %}?category=Proximity_sensors" class="dropdown-item">Proximity sensors</a>
+                <a href="{% url 'products' %}?category=Farness_sensors" class="dropdown-item">Farness sensors</a>
+                <a href="{% url 'products' %}?category=Tag_sensors" class="dropdown-item">Tag sensors</a>
+                <a href="{% url 'products' %}?category=Proximity_sensors, Farness_sensors, Tag_sensors" class="dropdown-item">All Sensors</a>
             </div>
         </li>
 
@@ -41,10 +41,10 @@
                 Special Offers
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item">New Arrivals</a>
-                <a href="" class="dropdown-item">Deals</a>
-                <a href="" class="dropdown-item">Clearance</a>
-                <a href="" class="dropdown-item">All Specials</a>
+                <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item">New Arrivals</a>
+                <a href="{% url 'products' %}?category=deals" class="dropdown-item">Deals</a>
+                <a href="{% url 'products' %}?category=Clearance" class="dropdown-item">Clearance</a>
+                <a href="{% url 'products' %}?category=Hangers" class="dropdown-item">All Specials</a>
             </div>
         </li>
     </ul>
